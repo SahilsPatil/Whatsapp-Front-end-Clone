@@ -1,0 +1,350 @@
+body{
+    top: 0%;
+    left: 0%;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+/* *************NavBar With Whatsapp to Calls************ */
+.navbar{
+    background-color: #2a2f32;
+}
+#displaysearchbar{
+    display: none;
+}
+#sback{
+    padding:10px;
+    color: #b1b3b5;
+    padding-right: 0%;
+}
+#search{
+    background-color:#2a2f32;
+    border: none;
+    outline: none;
+    height: 20px;
+    padding: 30px;
+    padding-left: 10px;
+    color: white;
+}
+#nav{
+    padding: 20px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: nowrap;
+}
+.name{
+    color: #b1b3b5;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+}
+.searchbar{
+    color: #b1b3b5;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.menubar{
+    color: #b1b3b5;
+    cursor: pointer;
+}
+#menu{
+    border-top: 1px solid #2a2f32;
+    padding-top: 18px;
+    background-color: #2a2f32;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 12px;
+    font-weight: bold;
+    color: #b1b3b5;
+    text-align: center;
+    position: sticky;
+    position: -webkit-sticky;
+}
+#camera{
+    cursor: pointer;
+    padding: 0px 15px 0px 7px;
+    margin-bottom: 10px;
+}
+#chats{
+    font-size: 14px;
+    /* font-weight: bold; */
+    color: rgb(0, 149, 136);
+    cursor: pointer;
+    width: 100%;
+    border-bottom: 3.5px solid rgb(0, 149, 136);
+    padding-bottom: 18px;
+}
+#status{
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    /* border-bottom: 2px solid gray; */
+    width: 100%;
+    padding-bottom: 18px;
+
+}
+#calls{
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    /* border-bottom: 2px solid gray; */
+    width: 100%;
+    padding-bottom: 18px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ********Middle Part Of All Chats Status Calls*********** */
+
+/**************** All Chats*************** */
+#allchats{
+    /* display: none; */
+    background-color: #131c21;
+}
+.firstchat{
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.info{
+    padding-bottom: 20px;
+    width: 100%;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 0.1px solid rgb(61, 61, 61);
+    
+}
+.personname_time{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.personname{
+    font-size: 17px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.time{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color :#b1b3b5;
+    font-size: 12px;
+}
+.message{
+    color: #b1b3b5;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 2px;
+}
+.message svg{
+    color: #00a5f4;
+}
+
+
+
+
+
+
+
+/* ***********All Status*********** */
+#allstatus{
+    display: none;
+    height: 780px;
+    /* border: 2px solid greenyellow; */
+    background-color: #131c21;
+}
+.mystatusinfo {
+    padding-bottom: 10px;
+    width: 100%;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.updates {
+    padding: 10px;
+    color: #b1b3b5;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.statusdp svg{
+    border: 3px dashed rgb(0, 149, 136);
+    border-radius: 50px;
+    
+}
+
+
+
+/* **************All Calls************* */
+#allcalls{
+    height: 780px;
+    display: none;
+    background-color: #131c21;
+}
+
+
+
+
+
+
+
+
+
+
+
+/************** Fixed Button ************ */
+
+
+
+/***** Video Call Button**** */
+#videocall{
+    display: none;
+    /* border: 1px solid black; */
+    position: fixed;
+    right: 50px;
+    float: left;
+    cursor: pointer;
+    bottom: 10px;
+}
+#videocallbtn{
+    background-color: rgb(52, 52, 52);
+    border: none;
+    text-decoration: none;
+    width: 40px;
+    text-align: center;
+    border-radius: 90px;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 80%;
+    margin-bottom: 170%;
+}
+
+
+
+/* ****Create Buttton To create**** */
+#create{
+    display: none;
+    /* border: 1px solid black; */
+    position: fixed;
+    right: 50px;
+    float: left;
+    cursor: pointer;
+    bottom: 10px;
+}
+#createbtn{
+    background-color: rgb(52, 52, 52);
+    border: none;
+    text-decoration: none;
+    width: 40px;
+    text-align: center;
+    border-radius: 90px;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 80%;
+    margin-bottom: 170%;
+}
+#createbtn svg{
+    padding: 2px;
+}
+
+
+
+/* *****Add Btn TO add People */
+#add{
+    display: block;
+    /* border: 1px solid black; */
+    position: fixed;
+    right: 50px;
+    float: left;
+    cursor: pointer;
+    bottom: 10px;
+}
+#addbtn{
+    background-color: rgb(0, 149, 136);
+    border: none;
+    text-decoration: none;
+    width: 50px;
+    text-align: center;
+    border-radius: 90px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 80%;
+    margin-bottom: 10%;
+}
+
+
+#statuscamera{
+    display: none;
+    /* border: 1px solid black; */
+    position: fixed;
+    right: 50px;
+    float: left;
+    cursor: pointer;
+    bottom: 10px;
+}
+#statuscamerabtn{
+    background-color: rgb(0, 149, 136);
+    border: none;
+    text-decoration: none;
+    width: 50px;
+    text-align: center;
+    border-radius: 90px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 80%;
+    margin-bottom: 10%;
+}
+
+#simplecall{
+    display: none;
+    /* border: 1px solid black; */
+    position: fixed;
+    right: 50px;
+    float: left;
+    cursor: pointer;
+    bottom: 10px;
+}
+#simplecallbtn{
+    background-color: rgb(0, 149, 136);
+    border: none;
+    text-decoration: none;
+    width: 50px;
+    text-align: center;
+    border-radius: 90px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 80%;
+    margin-bottom: 10%;
+}
+
+
+
+
+
